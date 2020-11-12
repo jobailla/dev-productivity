@@ -1,0 +1,39 @@
+{
+  "name": "productive-dev",
+  "description": "",
+  "author": "Jonathan Baillais",
+  "homepage": ".",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "set PORT=4200 && react-scripts --max_old_space_size=10240 start",
+    "build": "react-scripts --max_old_space_size=10240 build ",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "igniteui-react-charts": "16.12.6",
+    "igniteui-react-core": "16.12.6",
+    "igniteui-react-grids": "16.12.6",
+    "igniteui-react-inputs": "^16.12.6",
+    "igniteui-react-layouts": "^16.12.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.56",
+    "@types/react-dom": "16.9.9",
+    "@typescript-eslint/eslint-plugin": "4.7.0",
+    "@typescript-eslint/parser": "4.7.0",
+    "eslint-config-prettier": "6.15.0",
+    "typescript": "^4.0.5"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
