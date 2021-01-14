@@ -12,7 +12,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@material-ui/core": "4.11.0",
+    "@material-ui/core": "4.11.2",
     "igniteui-react-charts": "16.12.6",
     "igniteui-react-core": "16.12.6",
     "igniteui-react-grids": "16.12.6",
